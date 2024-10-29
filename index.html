@@ -1,213 +1,272 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tienda de ropa</title>
-    <!-- css -->
-    <!--<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <meta name="description" content="Hidden Brand - Tienda de ropa en Colombia con una amplia variedad de productos.">
+    <meta name="keywords" content="tienda de ropa, moda, camisas, jeans, Colombia, Hidden Brand t">
+    <meta name="author" content="Hidden Brand ">
+    
+    <title>Hidden Brand  | Tienda de Ropa</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    
+    <!-- SEO y redes sociales -->
+    <meta property="og:title" content="Hidden Brand  - Tienda de Ropa en Colombia">
+    <meta property="og:description" content="Descubre nuestra amplia colección de ropa moderna y de calidad en Hidden Brand.">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    <meta property="og:url" content="https://www.Hidden Brand .com">
+    <meta property="og:type" content="website">
 
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">-->
+    <!-- Compatibilidad con IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!--Agregando lineas para que me reconosca Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <!--Inicio del encabezado-->
-    
-    <!--
-     Encabezado 
-    
-    <nav class="navbar navbar_expand-lg bg-dark navbar-light" id="templatemo_nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto.info@prodart.com">info@prodart.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand tex-light tex-decoration-none" href="tel 057-313-02-75">057-313-02-75</a>
-                  </div>
-                  <div>
-                    
-                     <a class="tex-light" href="http://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook fa-sm fa-fw me-2"></i></a>
-                     <a class="tex-light" href="http://www.instagram.com" target="_blank" ><i class="fab fa-inatagram fa-sm fa-fw me-2"></i></a>
-                     <a class="tex-light" href="http://twitter.com" target="_blank" ><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                </div>
-        </div>
-    </nav>
-    -->
-    <!--
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+<!-- Inicio de la barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+  <div class="container">
+      <!-- Botón de menú móvil -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Logo de la marca -->
+      <a class="navbar-brand fw-bold text-primary" href="#">
+          Hidden Brand
+      </a>
+
+      <!-- Enlaces de navegación -->
+      <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                  <a class="nav-link" href="#">Catálogo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  <a class="nav-link" href="#">Ofertas</a>
               </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+              </li>
+          </ul>
+
+          <!-- Iconos de redes sociales -->
+          <div class="d-none d-lg-flex align-items-center ms-3">
+              <a href="https://facebook.com" target="_blank" class="text-primary mx-2">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" class="text-danger mx-2">
+                  <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://whatsapp" target="_blank" class="text-info mx-2">
+                  <i class="fab fa-whatsapp"></i>
+              </a>
           </div>
-        </div>
-      </nav>
-    -->
-    <!--fin del encabezado-->
-    <!--inicio de la barra de navegacion-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">Hidden brand</a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    <!--fin de la barra de navegacion-->
+
+          <!-- Barra de búsqueda -->
+          <form class="d-flex ms-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+      </div>
+  </div>
+</nav>
+<!-- Fin de la barra de navegación -->
+
     <section>
         <!--Carrusel de imagenes-->
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicadores del carrusel -->
+          <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://www.giftcampaign.es/blog/wp-content/uploads/2023/03/camisetas-publicitarias-con-logo-1024x569.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR76zORiIum2kkfHmJhMqjGLPgNWGlESlr2Xg&s" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-       <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+      
+          <!-- Contenido del carrusel -->
+          <div class="carousel-inner">
+              <!-- Primera diapositiva -->
+              <div class="carousel-item active">
+                  <img src="https://i.etsystatic.com/35225642/r/il/e775f8/4190937694/il_1080xN.4190937694_jqlx.jpg" class="d-block w-100" alt="Camisetas personalizadas">
+                  <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                      <h5 class="fw-bold">Camisetas Personalizadas</h5>
+                      <p>Diseña tu propia camiseta con nuestro servicio de personalización exclusivo.</p>
+                  </div>
+              </div>
+      
+              <!-- Segunda diapositiva -->
+              <div class="carousel-item">
+                  <img src="https://i.etsystatic.com/23978511/r/il/545f51/3548866750/il_570xN.3548866750_3l4u.jpg" class="d-block w-100" alt="Colección deportiva">
+                  <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                      <h5 class="fw-bold">Colección Deportiva</h5>
+                      <p>Descubre nuestra nueva línea de ropa deportiva con tejidos de alta calidad.</p>
+                  </div>
+              </div>
+      
+              <!-- Tercera diapositiva -->
+              <div class="carousel-item">
+                  <img src="https://cdn.latostadora.com/img/designtoollandings/tshirts/es/mainbanner.mobile.webp" class="d-block w-100" alt="Ofertas especiales">
+                  <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                      <h5 class="fw-bold">Ofertas Especiales</h5>
+                      <p>Aprovecha nuestros descuentos especiales en toda la colección de temporada.</p>
+                  </div>
+              </div>
+          </div>
+
+            <!-- Controles del carrusel -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h5 class="fw-bold">Camisetas Personalizadas</h5>
+              <p>Diseña tu propia camiseta con nuestro servicio de personalización exclusivo.</p>
+          </div>
+          
+        
+            <!-- Scripts de Bootstrap (Importante: deben ir al final del body) -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+            <!-- Script para inicializar el carrusel -->
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleCaptions'), {
+                        interval: 3000,  // Tiempo entre diapositivas en milisegundos
+                        wrap: true,      // Permite que el carrusel vuelva al principio
+                        keyboard: true   // Permite control con teclado
+                    });
+                });
+            </script>
+      <style>
+          .carousel-item {
+              height: 400px;
+          }
+          
+          .carousel-item img {
+              object-fit: cover;
+              height: 100%;
+          }
+          
+          .carousel-caption {
+              bottom: 20%;
+          }
+      </style>
+     <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
     </section>
     <!--Inicio de la seccion de productos-->
-    <section class="d-flex p-3 g-4">
-        <div class="card" style="width: 18rem;">
-            <img src="https://irreal.vtexassets.com/arquivos/ids/239309-2000-3000?v=638468149445470000&width=2000&height=3000&aspect=true" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Pantalonesta inpermehable</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
+    <section class="row row-cols-1 row-cols-md-2 g-4 p-3">
+      <div class="col">
+          <div class="card h-100">
+              <img src="https://irreal.vtexassets.com/arquivos/ids/239309-2000-3000?v=638468149445470000&width=2000&height=3000&aspect=true" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pantalonesta impermeable</h5>
+                <p class="card-text">Texto de ejemplo para el contenido de la tarjeta.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+              <img src="https://img.freepik.com/psd-gratis/vaqueros-azules-aislados-sobre-fondo-transparente_191095-17292.jpg?semt=ais_hybrid" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Texto de ejemplo para el contenido de la tarjeta.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+ <!-- inicio de pie -->
+<footer class="bg-dark" id="templatemo_footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 pt-5">
+              <h2 class="h2 text-success border-bottom pb-3 border-light log">Hidden Brand</h2>
+              <ul class="list-unstyled text-light footer-link-list">
+                  <li>
+                      <i class="fas fa-map-marker-alt fa-fw"></i>
+                      Local Principal - Barranquilla - Colombia
+                  </li>
+                  <li>
+                      <i class="fa fa-phone fa-fw"></i>
+                      <a class="navbar-sm-brand text-light text-decoration-none" href="tel 057-313-02-75">057-313-02-75</a>
+                  </li>
+                  <li>
+                      <i class="fa fa-envelope mx-2"></i>
+                      <a class="navbar-sm-brand text-light text-decoration-none" href="mailto.info@hiddenbrand.com">info@hiddenbrand.com</a>
+                  </li>
+              </ul>
+              <!-- Iconos de redes sociales -->
+              <div class="social-icons d-flex justify-content-center justify-content-lg-start mt-3">
+                <a href="https://www.facebook.com" target="_blank" class="text-light text-decoration-none mx-2">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank" class="text-light text-decoration-none mx-2">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="text-light text-decoration-none mx-2">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="https://img.freepik.com/psd-gratis/vaqueros-azules-aislados-sobre-fondo-transparente_191095-17292.jpg?semt=ais_hybrid" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-        </div>
-    </section>
-    <!-- inicio de pie -->
-    <footer class="bg-dark" id="templatemo_footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light log">ProdArt</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Local Principal - Barranquilla - Colombia
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="navbar-sm-brand text-light text-decoration-none" href="tel 057-313-02-75">057-313-02-75</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope mx-2"></i>
-                            <a class="navbar-sm-brand text-light text-decoration-none" href="mailto.info@prodart.com">info@prodart.com</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">productos</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">camisas</a></li>
-                        <li><a class="text-decoration-none" href="#">jeans</a></li>
-                        <li><a class="text-decoration-none" href="#">pantalonetas</a></li>
-                        <li><a class="text-decoration-none" href="#">gafas</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Mas informacion</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Home</a></li>
-                        <li><a class="text-decoration-none" href="#">A cerca de</a></li>
-                        <li><a class="text-decoration-none" href="#">Compras</a></li>
-                        <li><a class="text-decoration-none" href="#">Contactos</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+          </div>
+          <div class="col-md-4 pt-5">
+              <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+              <ul class="list-unstyled text-light footer-link-list">
+                  <li><a class="text-decoration-none" href="#">Camisetas</a></li>
+                  <li><a class="text-decoration-none" href="#">Jeans</a></li>
+                  <li><a class="text-decoration-none" href="#">Pantalonetas</a></li>
+                  <li><a class="text-decoration-none" href="#">Gafas</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4 pt-5">
+              <h2 class="h2 text-light border-bottom pb-3 border-light">Mas informacion</h2>
+              <ul class="list-unstyled text-light footer-link-list">
+                  <li><a class="text-decoration-none" href="#">Home</a></li>
+                  <li><a class="text-decoration-none" href="#">A cerca de</a></li>
+                  <li><a class="text-decoration-none" href="#">Compras</a></li>
+                  <li><a class="text-decoration-none" href="#">Contactos</a></li>
+              </ul>
 
+              <style>
+                /* Aumentar tamaño de los iconos de redes sociales en el footer */
+                .social-icons a i {
+                    font-size: 28px; /* Ajusta el tamaño aquí según lo que necesites */
+                    margin-right: 10px; /* Espacio entre los iconos */
+                }
+              </style>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+     <!-- FIN DE PIE -->
+</body>
+</html>
      <!-- FIN DE PIE -->
 </body>
 </html>
