@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | Hidden Brand</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+  <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand fw-bold text-primary" href="index.html">Hidden Brand</a>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link active" href="productos.html">Productos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+          </ul>
+
+          <form class="d-flex ms-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+
+          <a href="carrito.html" class="btn btn-outline-primary ms-3 position-relative">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cartCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            </span>
+            <span class="visually-hidden">Productos en el carrito</span>
+        </a>
+      </div>
+  </div>
+</nav>
+<!-- Fin de la barra de navegación -->
+
+<!-- Contenido de la página de productos -->
+<div class="container my-5">
+    <h2 class="mb-4">Nuestros Productos</h2>
+
+    <!-- Categoría: Pantalonetas -->
+    <section id="pantalonetas" class="mb-5">
+        <h3 class="mb-3">Pantalonetas</h3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Productos Camisetas -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://irreal.vtexassets.com/arquivos/ids/239309-2000-3000?v=638468149445470000&width=2000&height=3000&aspect=true" class="card-img-top" alt="Pantaloneta">
+                    <div class="card-body">
+                        <h5 class="card-title">Pantaloneta impermeable</h5>
+                        <p class="card-text">Descripción breve del producto.</p>
+                        <a href="shop-single.html?product=pantaloneta" class="btn btn-primary">Ver producto</a>
+                    </div>
+                </div>
+            </div>
+           
+        <!-- Más productos de Pantalonetas aquí -->
+    </section>
+
+    <!-- Categoría: Camisetas -->
+    <section id="camisetas" class="mb-5">
+        <h3 class="mb-3">Camisetas</h3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Productos Camisetas -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://i.etsystatic.com/35225642/r/il/e775f8/4190937694/il_1080xN.4190937694_jqlx.jpg" class="card-img-top" alt="Camiseta personalizada">
+                    <div class="card-body">
+                        <h5 class="card-title">Camiseta Personalizada</h5>
+                        <p class="card-text">Diseño único para destacar tu estilo.</p>
+                        <a href="shop-single.html?product=camiseta" class="btn btn-primary">Ver producto</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Más productos de Camisetas aquí -->
+        </div>
+    </section>
+
+    <!-- Categoría: Jeans -->
+    <section id="jeans" class="mb-5">
+        <h3 class="mb-3">Jeans</h3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Productos Jeans -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://img.freepik.com/psd-gratis/vaqueros-azules-aislados-sobre-fondo-transparente_191095-17292.jpg?semt=ais_hybrid" class="card-img-top" alt="Jeans clásicos">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeans Clásicos</h5>
+                        <p class="card-text">Comodidad y estilo para tu día a día.</p>
+                        <a href="shop-single.html?product=jeans" class="btn btn-primary">Ver producto</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Más productos de Jeans aquí -->
+        </div>
+    </section>
+
+    <!-- Categoría: Gafas -->
+    <section id="gafas" class="mb-5">
+        <h3 class="mb-3">Gafas</h3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Productos Gafas -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://img.freepik.com/foto-gratis/gafas-sol-rectangulares-negro-sobre-fondo-blanco_151013-12903.jpg" class="card-img-top" alt="Gafas de sol">
+                    <div class="card-body">
+                        <h5 class="card-title">Gafas de Sol</h5>
+                        <p class="card-text">Protección y estilo para cualquier ocasión.</p>
+                        <a href="shop-single.html?product=gafas" class="btn btn-primary">Ver producto</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Más productos de Gafas aquí -->
+        </div>
+    </section>
+</div>
+
+<!-- Pie de página -->
+<footer class="bg-dark" id="templatemo_footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pt-5">
+                <h2 class="h2 text-success border-bottom pb-3 border-light log">Hidden Brand</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><i class="fas fa-map-marker-alt fa-fw"></i> Local Principal - Barranquilla - Colombia</li>
+                    <li><i class="fa fa-phone fa-fw"></i><a class="navbar-sm-brand text-light text-decoration-none" href="tel:057-313-02-75">057-313-02-75</a></li>
+                    <li><i class="fa fa-envelope mx-2"></i><a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@hiddenbrand.com">info@hiddenbrand.com</a></li>
+                </ul>
+                <div class="social-icons d-flex justify-content-center justify-content-lg-start mt-3">
+                  <a href="https://www.facebook.com" target="_blank" class="text-light text-decoration-none mx-2"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.whatsapp.com" target="_blank" class="text-light text-decoration-none mx-2"><i class="fab fa-whatsapp"></i></a>
+                  <a href="https://www.instagram.com" target="_blank" class="text-light text-decoration-none mx-2"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="#camisetas">Camisetas</a></li>
+                    <li><a class="text-decoration-none" href="#jeans">Jeans</a></li>
+                    <li><a class="text-decoration-none" href="#pantalonetas">Pantalonetas</a></li>
+                    <li><a class="text-decoration-none" href="#gafas">Gafas</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript para el carrito -->
+<script>
+    // Función para actualizar el contador del carrito en la barra de navegación
+    const CartManager = {
+        getCart() {
+            try {
+                return JSON.parse(localStorage.getItem('cart')) || [];
+            } catch (error) {
+                console.error('Error al obtener el carrito:', error);
+                return [];
+            }
+        },
+    
+        saveCart(cart) {
+            try {
+                localStorage.setItem('cart', JSON.stringify(cart));
+                this.updateCartCount();
+            } catch (error) {
+                console.error('Error al guardar el carrito:', error);
+            }
+        },
+    
+        updateCartCount() {
+            try {
+                const cart = this.getCart();
+                const totalCount = cart.reduce((sum, item) => sum + (item.quantity || 0), 0);
+                const cartCountElement = document.getElementById('cartCount');
+                if (cartCountElement) {
+                    cartCountElement.textContent = totalCount > 0 ? totalCount : '';
+                }
+            } catch (error) {
+                console.error('Error al actualizar el contador del carrito:', error);
+            }
+        },
+    
+        addToCart(product) {
+            try {
+                const cart = this.getCart();
+                const existingItem = cart.find(item => item.id === product.id);
+                
+                if (existingItem) {
+                    existingItem.quantity = (existingItem.quantity || 0) + 1;
+                } else {
+                    cart.push({
+                        ...product,
+                        quantity: 1
+                    });
+                }
+                
+                this.saveCart(cart);
+            } catch (error) {
+                console.error('Error al agregar al carrito:', error);
+            }
+        }
+    };
+</script>
+</body>
+</html>
