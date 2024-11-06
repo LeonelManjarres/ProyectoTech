@@ -49,20 +49,14 @@
 
       <!-- Enlaces de navegación y barra de búsqueda -->
       <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Catálogo</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Ofertas</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
-              </li>
-          </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li> <!-- Enlace a la página de productos -->
+            <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a>
+            <li class="nav-item"><a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i> Carrito</a>
+            </li>
+        </ul>
 
           <!-- Barra de búsqueda -->
           <form class="d-flex ms-3" role="search">
@@ -71,10 +65,9 @@
           </form>
 
           <!-- Botón de Carrito de Compras -->
-          <a href="#" class="btn btn-outline-primary ms-3 position-relative">
+          <a href="carrito.html" class="btn btn-outline-primary ms-3 position-relative">
               <i class="fas fa-shopping-cart"></i>
               <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                  3 <!-- Esto es un ejemplo de cantidad -->
               </span>
               <span class="visually-hidden">Productos en el carrito</span>
           </a>
@@ -166,14 +159,14 @@
      <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
     </section>
     <!--Inicio de la seccion de productos-->
-    <section class="row row-cols-1 row-cols-md-2 g-4 p-3">
+    <section class="row row-cols-1 row-cols-md-4 g-4 p-3">
       <div class="col">
           <div class="card h-100">
               <img src="https://irreal.vtexassets.com/arquivos/ids/239309-2000-3000?v=638468149445470000&width=2000&height=3000&aspect=true" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Pantalonesta impermeable</h5>
-                <p class="card-text">Texto de ejemplo para el contenido de la tarjeta.</p>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <h5 class="card-title">Pantalonetas</h5>
+                <p class="card-text">Diferentes colores y materiales</p>
+                <a href="#" class="btn btn-primary">Ir a Categoria</a>
               </div>
           </div>
       </div>
@@ -181,12 +174,32 @@
           <div class="card h-100">
               <img src="https://img.freepik.com/psd-gratis/vaqueros-azules-aislados-sobre-fondo-transparente_191095-17292.jpg?semt=ais_hybrid" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Texto de ejemplo para el contenido de la tarjeta.</p>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <h5 class="card-title">Jeans</h5>
+                <p class="card-text">Revisa los diferentes estilos disponibles</p>
+                <a href="#" class="btn btn-primary">Ir a Categoria</a>
               </div>
           </div>
       </div>
+      <div class="col">
+        <div class="card h-100">
+            <img src="https://img.freepik.com/psd-gratis/vaqueros-azules-aislados-sobre-fondo-transparente_191095-17292.jpg?semt=ais_hybrid" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camisetas</h5>
+              <p class="card-text">Diferentes opciones para el verano</p>
+              <a href="#" class="btn btn-primary">Ir a Categoria</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <img src="https://img.freepik.com/psd-gratis/vaqueros-azules-aislados-sobre-fondo-transparente_191095-17292.jpg?semt=ais_hybrid" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gafas</h5>
+              <p class="card-text">Diferentes opciones para el verano</p>
+              <a href="#" class="btn btn-primary">Ir a Categoria</a>
+            </div>
+        </div>
+    </div>
   </section>
   
  <!-- inicio de pie -->
@@ -225,19 +238,19 @@
           <div class="col-md-4 pt-5">
               <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
               <ul class="list-unstyled text-light footer-link-list">
-                  <li><a class="text-decoration-none" href="#">Camisetas</a></li>
-                  <li><a class="text-decoration-none" href="#">Jeans</a></li>
-                  <li><a class="text-decoration-none" href="#">Pantalonetas</a></li>
-                  <li><a class="text-decoration-none" href="#">Gafas</a></li>
-              </ul>
+                <li><a class="text-decoration-none text-light" href="productos.html#camisetas">Camisetas</a></li>
+                <li><a class="text-decoration-none text-light" href="productos.html#jeans">Jeans</a></li>
+                <li><a class="text-decoration-none text-light" href="productos.html#pantalonetas">Pantalonetas</a></li>
+                <li><a class="text-decoration-none text-light" href="productos.html#gafas">Gafas</a></li>
+            </ul>
           </div>
           <div class="col-md-4 pt-5">
               <h2 class="h2 text-light border-bottom pb-3 border-light">Mas informacion</h2>
               <ul class="list-unstyled text-light footer-link-list">
                   <li><a class="text-decoration-none" href="#">Home</a></li>
-                  <li><a class="text-decoration-none" href="#">A cerca de</a></li>
-                  <li><a class="text-decoration-none" href="#">Compras</a></li>
-                  <li><a class="text-decoration-none" href="#">Contactos</a></li>
+                  <li><a class="text-decoration-none" href="info.html">A cerca de</a></li>
+                  <li><a class="text-decoration-none" href="productos.html">Compras</a></li>
+                  <li><a class="text-decoration-none" href="contact.html">Contacto</a></li>
               </ul>
 
               <style>
@@ -251,6 +264,8 @@
       </div>
   </div>
 </footer>
+
+
      <!-- FIN DE PIE -->
 </body>
 </html>
